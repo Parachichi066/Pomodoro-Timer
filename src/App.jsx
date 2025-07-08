@@ -12,8 +12,7 @@ function App() {
         <div className='min-h-screen'>
           <Navbar />
           <Routes>
-            <Route path = "/" element={<Home />}/>
-            <Route path='/timer' element={<Timer />}/>
+            <Route path='/' element={<Timer />}/>
           </Routes>
         </div>
       </Router>
