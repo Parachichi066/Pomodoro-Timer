@@ -6,7 +6,7 @@ function Navbar() {
         <span className="font-semibold text-lg">Pomodoro</span>
       </div>
 
-      <div className="flex space-x-6 text-gray-700 font-medium">
+      <div className="flex space-x-6 text-gray-700 font-medium list-none">
         <li className="hover:text-black">Overview</li>
         <li className="hover:text-black">Start</li>
       </div>
